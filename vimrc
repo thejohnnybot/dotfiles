@@ -6,6 +6,7 @@ set number
 set expandtab
 set tabstop=2
 set shiftwidth=2
+set guifont=Monaco:h16
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -31,11 +32,16 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/syntastic'
 Plugin 'Raimondi/delimitMate'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-endwise'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'carlosgaldino/elixir-snippets'
+Plugin 'nono/vim-handlebars'
+Plugin 'heartsentwined/vim-emblem'
+Plugin 'fatih/vim-go'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
