@@ -30,7 +30,6 @@ Plugin 'git://git.wincent.com/command-t.git'
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
-Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/syntastic'
 Plugin 'Raimondi/delimitMate'
@@ -42,6 +41,7 @@ Plugin 'carlosgaldino/elixir-snippets'
 Plugin 'nono/vim-handlebars'
 Plugin 'heartsentwined/vim-emblem'
 Plugin 'fatih/vim-go'
+Plugin 'tpope/vim-vinegar'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
