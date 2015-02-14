@@ -32,18 +32,21 @@ Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'scrooloose/syntastic'
 Plugin 'Raimondi/delimitMate'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-endwise'
 Plugin 'elixir-lang/vim-elixir'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'carlosgaldino/elixir-snippets'
 Plugin 'nono/vim-handlebars'
-Plugin 'heartsentwined/vim-emblem'
 Plugin 'fatih/vim-go'
 Plugin 'tpope/vim-vinegar'
+Plugin 'kien/ctrlp.vim'
+Plugin 'othree/html5.vim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
