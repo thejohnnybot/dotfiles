@@ -1,4 +1,3 @@
-colorscheme railscasts
 set number
 
 set tabstop=2
